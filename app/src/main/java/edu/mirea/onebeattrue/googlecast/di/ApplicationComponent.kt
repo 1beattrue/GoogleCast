@@ -8,13 +8,13 @@ import edu.mirea.onebeattrue.googlecast.presentation.ViewModelFactory
 @ApplicationScope
 @Component(
     modules = [
-        DataModule::class,
-        PresentationModule::class
+        CastModule::class,
+        ViewModelModule::class
     ]
 )
 interface ApplicationComponent {
 
-    fun getViewModelFactory(): ViewModelFactory
+    val viewModelFactory: ViewModelFactory
 
     @Component.Factory
     interface Factory {

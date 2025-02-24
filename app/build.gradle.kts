@@ -62,4 +62,5 @@ dependencies {
     ksp(libs.dagger.compiler)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.icons)
+    implementation(libs.androidx.appcompat)
 }

@@ -7,7 +7,7 @@ import dagger.multibindings.IntoMap
 import edu.mirea.onebeattrue.googlecast.presentation.MainViewModel
 
 @Module
-interface PresentationModule {
+interface ViewModelModule {
     @IntoMap
     @ViewModelKey(MainViewModel::class)
     @Binds
