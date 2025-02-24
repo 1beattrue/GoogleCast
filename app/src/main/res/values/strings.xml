@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GoogleCast</string>
+    <string name="video_url"><![CDATA[https://videolink-test.mycdn.me/?pct=1&sig=6QNOvp0y3BE&ct=0&clientType=45&mid=193241622673&type=5]]></string>
+    <string name="content_description">Отправить видео на устройство Google Cast</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="initial">Воспроизвести видео</string>
+    <string name="success">Видео воспроизводится…</string>
+    <string name="error">Ошибка: %1$s</string>
 </resources>
